@@ -1,0 +1,15 @@
+{
+  "name": "hello3",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "https://github.com/mranenko/vue2-hello3",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "vue": "2.6.14"
+  },
+  "scripts": {
+    "server": "live-server --open=index.html --port=20222",
+    "start": "yarn server"
+  }
+}
